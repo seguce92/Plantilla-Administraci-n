@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Escritorio | Almacen</title>
+    <!-- Bootstrap  CSS -->
+    <link href="res/css/bootstrap.min.css" rel="stylesheet">
+    <link href="res/css/sb-admin.css" rel="stylesheet">
+    <link href="res/css/AdminLTE.min.css" rel="stylesheet">
+  	<link href="res/css/font-awesome.min.css" rel="stylesheet">
+  
+
+  	
+  	
+
+   
+
+</head>
+
+<body>
+
+    <div id="wrapper" class="content">
+        <!-- Navegacion -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <!-- display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="admin.html"><b>Inventario | Almacen</b> <sup>V - 0.1 </sup> </a>
+
+            </div>
+            <!-- Top Menu  -->
+           <div class="text-center text-danger"><strong>Copyright &copy; 2017 Will </strong></div>
+            <ul class="nav navbar-right top-nav">
+            	
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i><b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <a href=""><i class="fa fa-fw fa-user"></i> Perfil</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href=""><i class="fa fa-fw fa-power-off"></i> Salir</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        
+
+            <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
+           
+			    <div class="collapse navbar-collapse navbar-ex1-collapse">
+			        	  
+					<section class="sidebar">
+
+			                <ul class="nav navbar-nav side-nav ">
+			                 <li class="header"></li>
+								 <li>
+			                        <a href=""><i class="fa fa-fw fa-dashboard"></i> Escritorio</a>
+			                    </li>
+
+								
+								<li class="treeview sidebar-menu">
+					              <a href="#">
+					                <i class="fa fa-laptop"></i>
+					                <span>Almacén</span>
+					                <i class="fa fa-angle-left pull-right"></i>
+					              </a>
+					              <ul class="treeview-menu">
+					                <li><a href="almacen/articulo"><i class="fa fa-circle-o"></i> Artículos</a></li>
+					                <li><a href="almacen/categoria"><i class="fa fa-circle-o"></i> Categorías</a></li>
+					              </ul>
+					            </li>
+
+								<li class="treeview sidebar-menu">
+					              <a href="#">
+					                <i class="fa fa-th"></i>
+					                <span>Compras</span>
+					                 <i class="fa fa-angle-left pull-right"></i>
+					              </a>
+					              <ul class="treeview-menu">
+					                <li><a href="compras/ingreso"><i class="fa fa-circle-o"></i> Ingresos</a></li>
+					                <li><a href="compras/proveedor"><i class="fa fa-circle-o"></i> Proveedores</a></li>
+					              </ul>
+					            </li>
+								
+								<li class="treeview sidebar-menu">
+						              <a href="#">
+						                <i class="fa fa-shopping-cart"></i>
+						                <span>Ventas</span>
+						                 <i class="fa fa-angle-left pull-right"></i>
+						              </a>
+						              <ul class="treeview-menu">
+						                <li><a href="ventas/venta"><i class="fa fa-circle-o"></i> Ventas</a></li>
+						                <li><a href="ventas/cliente"><i class="fa fa-circle-o"></i> Clientes</a></li>
+						              </ul>
+						            </li>
+						                       
+						            <li class="treeview sidebar-menu">
+						              <a href="#">
+						                <i class="fa fa-folder"></i> <span>Acceso</span>
+						                <i class="fa fa-angle-left pull-right"></i>
+						              </a>
+						              <ul class="treeview-menu">
+						                <li><a href="configuracion/usuario"><i class="fa fa-circle-o"></i> Usuarios</a></li>
+						                
+						              </ul>
+						            </li>
+
+						            <li class="treeview sidebar-menu">
+						              <a href="#">
+						                <i class="fa fa-fw fa-cogs"></i> <span>Configuraciones</span>
+						                <i class="fa fa-angle-left pull-right"></i>
+						              </a>
+						              <ul class="treeview-menu">
+						                <li><a href="configuracion/general"><i class="fa fa-circle-o"></i> General</a></li>
+						                
+						              </ul>
+						            </li>  
+
+						             <li>
+						              <a href="#">
+						                <i class="fa fa-plus-square"></i> <span>Ayuda</span>
+						                <small class="label pull-right bg-red">PDF</small>
+						              </a>
+						            </li>
+						            <li>
+						              <a href="#">
+						                <i class="fa fa-info-circle"></i> <span>Acerca De...</span>
+						                <small class="label pull-right bg-yellow">IT</small>
+						              </a>
+						            </li>
+
+						                             
+			                </ul>
+			        </section>           
+			    </div>					
+            <!-- sidebar: style can be found in sidebar.less -->
+        </nav>	            
+            <!-- /.navbar-collapse -->
+        <!-- /.contenido -->
+			<div class="content">
+				<div class="row  ">
+					<div class="col-md-12 ">
+						<div class="box ">
+							<div class="box-header with-border ">
+							  <h3 class="box-title">Sistema de Ventas | Inventario</h3>
+							  <div class="box-tools">
+							    <button class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button> 
+							    <button class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+							  </div>
+							</div>
+							<div class="box-body">
+								Contenido
+							
+							</div>
+						</div>     	
+					</div>
+				</div>	        
+			</div>
+	   <!-- /.fin contenido -->
+    </div>
+    <!-- /#wrapper -->
+    <script src="res/js/jQuery-2.1.4.min.js"></script>
+    <script src="res/js/bootstrap.min.js"></script>
+    <script src="res/js/app.min.js"></script>
+    <script src="res/datatables/jquery.dataTables.js"></script>
+	<script src="res/datatables/dataTables.bootstrap.js"></script>
+
+</body>
+</html>
